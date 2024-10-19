@@ -8,7 +8,7 @@ from generation import generate_balance_sheet_insights , generate_income_stateme
 app = Flask(__name__)
 CORS(app)
 
-groq_client = groq.Client(api_key="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")
+groq_client = groq.Client(api_key="GROQ_API_KEY")
 
 
 @app.route('/generate_insights', methods=['POST'])
